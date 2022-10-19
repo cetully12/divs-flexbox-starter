@@ -108,6 +108,25 @@ body {
   font-size: .9em;
   height: 100%;
   font-weight: 500;
+  color: #fff;
+}
+
+header h1 {
+    font-family: 'Lora', sans-serif;
+    font-size: 4em;
+}
+
+main p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5em;
+    border-bottom: 2px solid #5AAA95;
+    padding-bottom: 1.5em;
+}
+
+span {
+    font-family: 'Lora', sans-serif;
+    font-size: 1.25em;
+    color: #5AAA95
 }
 
 .wrapper {
@@ -115,9 +134,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 2px solid #5AAA95;
+  padding-bottom: 1.5em;
 }
 
-.wrapper span {
+span {
     font-family: 'Lora', sans-serif;
     font-size: 1.25em;
     color: #5AAA95
